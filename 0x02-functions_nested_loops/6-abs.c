@@ -1,24 +1,29 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _isalpha - Return 1 if c is a letter. lowercase or uppercase
+ * _abs - value absolute
  *
- * @c: The int to print
+ * @n: The int to print
  * Return: Always 0.
  */
 
-int _isalpha(int c)
-
+int _abs(int n)
 {
 
-if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+if (n < 0)
 {
-return (1);
+return (n * (-1));
 }
 
-else
-{	
+else if (n == 0)
+{
 return (0);
 }
 
+else
+{
+return (n);
 }
+
+}	
