@@ -15,11 +15,11 @@ count = 0;
 while (count < 10)
 {
 for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
-}
+{
 _putchar(alphabet);
 }
 
-count++;
+count = +1;
 _putchar('\n');
 }
 
